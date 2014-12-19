@@ -1,4 +1,4 @@
-class nxlog (
+class appdynamics (
     $package_ensure             =   present,
     $package_name               =   "NXLOG-CE",
     $package_version            =   "2.8.1248",
@@ -59,5 +59,5 @@ class nxlog (
     }
 
 
-    #create_resources(nxlog::conf,hiera('nxlog::conf::inputs'))
+    #create_resources(appdynamics::conf,hiera('appdynamics::conf::inputs'))
 }
